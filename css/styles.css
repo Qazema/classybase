@@ -1,0 +1,45 @@
+/**
+ * @file
+ * Global rules
+ *
+ * Theme global rules.
+ */
+
+html {
+  height: 100%;
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.5;
+}
+html, body {
+  position: relative;
+  font-family: Arial, sans-serif;
+  color: #000000;
+}
+body {
+  overflow-x: hidden;
+}
+body * {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+p, h1, h2, h3 {
+  position: relative;
+}
+::selection {
+  background-color: #f48120;
+  color: #fff;
+}
+
+/**
+ * Links
+ */
+a {
+  color: blue;
+  text-decoration: none;
+}
+

@@ -1,0 +1,8 @@
+name: Classy Base
+type: theme
+description: A theme created by Kauriweb as a "Classy" base theme.
+base theme: classy
+core: 8.x
+screenshot: screenshot.jpg
+libraries:
+  - classybase/classybase-theme

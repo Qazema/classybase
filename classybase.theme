@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the Classy Base theme.
+ */
+
+
+/**
+ * Preprocess variables for html templates.
+ * @param $variables
+ */
+/**
+ * Implements hook_preprocess_html().
+ */
+function classybase_preprocess_html(&$variables) {
+  if ($node = \Drupal::request()->attributes->get('node')) {
+    $variables['attributes']['class'][] = 'page-node-' . $node->id();
+  }
+}

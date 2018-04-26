@@ -1,0 +1,14 @@
+/**
+ * @file
+ * Form component's rules.
+ *
+ * Defines rules for form components : input, label, etc.
+ * 
+ */
+
+/**
+ * Forms bases
+ */
+input {
+	max-width: 100%;
+}

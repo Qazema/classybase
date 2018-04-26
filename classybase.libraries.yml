@@ -1,0 +1,17 @@
+classybase-theme:
+  version: 1.x
+  css:
+    theme:
+      css/layout.css: {}
+      css/fonts.css: {}
+      css/footer.css: {}
+      css/header.css: {}
+      css/forms.css: {}
+      css/styles.css: {}
+      css/modules.css: {}
+  js:
+    js/classybase.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once

@@ -1,14 +1,19 @@
-INSTALLATION DU THEME
+Classybase
+=============
 
+About
+-------
+
+Classybase is a starter theme based on Drupal 8 core theme "Classy". It include minimal / recurent code and a base file scheme.
 Ce Thème se base sur le thème du core "Classy". Il sert de base de développement.
 Dans la procédure d'installation ci-dessous, Nous utiliserons "foo" comme exemple de nom de thème.
 
-1/ Copiez le dossier "classybase" vers "site/[dossier-du-site]/themes".
-2/ Renommez le dossier "classybase" en "foo".
-3/ Dans votre thème, renommez le fichier "classybase.info.yml" en "foo.info.yml".
-4/ Editez ensuite ce même fichier et modifiez les valeurs de "name", "description" et "libraries".
-5/ Dans votre thème, renommez le fichier "classybase.libraries.yml" en "foo.libraries.yml".
-6/ Editez ce fichier et à la ligne 1 modifiez la valeur "classybase-theme" par "foo-theme".
-7/ Dans votre thème, renommez le fichier "classybase.theme" en "foo.theme".
-8/ Editez ce fichier et remplacez toutes les occurence "classybase" par "foo".
-9/ Amen.
+
+Installation
+-------
+
+1. Setup the location for your new theme. Copy the Classybase folder to "sites/[sitename]/themes" and rename it. Exemple : foo).
+1. Rename "classybase.info.yml" file to include the name of your of your new theme. Exemple : "foo.info.yml". Then edit the file and complete "name, description" and "libraries" values.
+1. Rename "classybase.libraries.yml" file to include the name of your of your new theme. Exemple : "foo.libraries.yml". Edit the file and replace "classybase-theme" at line 1 with your theme name. Exemple : "foo-theme"
+"libraries" values.
+1. Rename "classybase.theme" file to include the name of your of your new theme. Exemple : "foo.theme". Edit the file and replace all "classybase" occurences with your theme name.

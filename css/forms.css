@@ -9,6 +9,7 @@
 /**
  * Forms bases
  */
-input {
+input,
+textarea {
 	max-width: 100%;
 }
